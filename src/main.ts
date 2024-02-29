@@ -2,7 +2,7 @@
 
 // task part 1 create a function which return an object
 
-import { UserType } from "./types";
+import { UserType } from "./types.js";
 
 const createUser = (UserDetails: {
   name: string;
