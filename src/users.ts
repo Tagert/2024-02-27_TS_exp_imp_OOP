@@ -11,9 +11,9 @@ type UserType = {
 
 type NoDisplayType = "dateCreated" | "id";
 
-type UserInfo = Omit<UserType, "password">;
-
 type CreateUserType = Omit<UserType, NoDisplayType>;
+
+type UserInfo = Omit<UserType, "password">;
 
 // 10. Sukurti naują user index.ts faile. panaudoti getterius, setterius. Pabandyt displayint userį.
 

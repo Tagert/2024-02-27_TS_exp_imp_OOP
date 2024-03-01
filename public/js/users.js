@@ -9,6 +9,8 @@ export class User {
         this.age = age;
         this.nickName = nickName;
         this.password = password;
+        this.id = this.generateDate();
+        this.dateCreated = this.generateDate();
     }
     generateId() {
         return Math.random().toString(36).substring(2, 15);
